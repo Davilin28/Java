@@ -1,0 +1,20 @@
+public class Prueba {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Enteros
+		int a = 3;
+		// Double
+		double b = 5.5;
+		// Caracteres
+		char c = '0';
+		// Palabras, cadenas...
+		String d = "Hola";
+		
+		//con esto imprime lo que queramos sacar por pantalla.
+		System.out.print(a+"\n");
+		System.out.print(b);
+	}
+
+}

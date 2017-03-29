@@ -1,0 +1,19 @@
+public class Prueba {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Enteros
+		int a = 3;
+		// Double
+		double b = 5.5;
+		// Caracteres
+		char c = '0';
+		// Palabras, cadenas...
+		String d = "Hola";
+		
+		System.out.print(a+" ");
+		System.out.print(b);
+	}
+
+}

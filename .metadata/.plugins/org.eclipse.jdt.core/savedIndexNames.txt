@@ -1,0 +1,2 @@
+INDEX VERSION 1.130+C:\Users\David\Desktop\Primer año de DAM\Nueva carpeta\.metadata\.plugins\org.eclipse.jdt.core
+2298930795.index

@@ -31,8 +31,8 @@ public class Coche {
 		this.itv = itv;
 		this.plazas = plazas;
 	}
+	
 	// 3.Crear metodos GET y SET
-
 
 	public String getMatricula() {
 		return matricula;
@@ -131,6 +131,26 @@ public class Coche {
 
 	public void setPlazas(int plazas) {
 		this.plazas = plazas;
+		
 	}
 	
+	//4. Crear metodo toString
+
+	@Override
+	public String toString() {
+		return "Coche [matricula=" + matricula + ", marca=" + marca + ", modelo=" + modelo + ", color=" + color
+				+ ", precio=" + precio + ", cilindrada=" + cilindrada + ", peso=" + peso + ", combustible="
+				+ combustible + ", itv=" + itv + ", plazas=" + plazas + "]";
+	}	
+	
+	//5. Creacion manual de metodos
+	// Metodo que añade un 21% de IVA al precio del coche
+	
+	public double IVA () {
+		
+		double Total = 0;
+		Total = precio * 1.21;
+		return Total;
+	}
 }
+

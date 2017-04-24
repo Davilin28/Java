@@ -1,0 +1,14 @@
+
+public class Moto {
+	
+	// 1.Añadir los atributos de la clase
+		String matricula;
+		String marca;
+		String modelo;
+		int cilindrada;
+		boolean itv;
+		int año;
+		String proteccion;
+		boolean pata;
+		int ruedas;
+}

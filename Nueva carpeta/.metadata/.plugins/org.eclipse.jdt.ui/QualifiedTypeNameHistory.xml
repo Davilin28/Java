@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Coche"/>
+<fullyQualifiedTypeName name="java.awt.Canvas"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+<fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.ws.api.server.Container"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="com.sun.prism.Image"/>
+<fullyQualifiedTypeName name="com.sun.prism.Graphics"/>
+<fullyQualifiedTypeName name="java.awt.Graphics"/>
+</qualifiedTypeNameHistroy>

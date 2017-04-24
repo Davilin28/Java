@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Prueba/src/arraysbidimensionales.java&apos; to &apos;arrays_bidimensionales.java&apos;" description="Rename resource &apos;arraysbidimensionales.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/arraysbidimensionales.java" name="arrays_bidimensionales.java" stamp="1490781954485" updateReferences="true"/>
+</session>

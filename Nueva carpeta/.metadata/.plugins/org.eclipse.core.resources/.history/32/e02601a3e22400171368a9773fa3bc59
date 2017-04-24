@@ -1,0 +1,34 @@
+
+public class Moto {
+	
+	// 1.Añadir los atributos de la clase
+		String matricula;
+		String marca;
+		String modelo;
+		int cilindrada;
+		boolean itv;
+		int ano;
+		boolean proteccion;
+		boolean pata;
+		int ruedas;
+		double deposito;
+		char tipo[];
+		
+		// 2.Metodo/s constructor/es
+		
+		public Moto(String matricula, String marca, String modelo, int cilindrada, boolean itv, int ano,
+				boolean proteccion, boolean pata, int ruedas, double deposito, char[] tipo) {
+			this.matricula = matricula;
+			this.marca = marca;
+			this.modelo = modelo;
+			this.cilindrada = cilindrada;
+			this.itv = itv;
+			this.ano = ano;
+			this.proteccion = proteccion;
+			this.pata = pata;
+			this.ruedas = ruedas;
+			this.deposito = deposito;
+			this.tipo = tipo;
+		}
+		
+}

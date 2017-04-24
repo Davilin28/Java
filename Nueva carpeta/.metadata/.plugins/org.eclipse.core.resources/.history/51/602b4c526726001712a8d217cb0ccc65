@@ -1,0 +1,55 @@
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.JTextPane;
+
+public class Principal {
+
+	private JFrame frame;
+
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Principal window = new Principal();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	public Principal() {
+		initialize();
+	}
+
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setBounds(211, 155, 115, 29);
+		frame.getContentPane().add(btnNewButton);
+		
+		JLabel lblNombre = new JLabel("Nombre");
+		lblNombre.setBounds(37, 16, 69, 26);
+		frame.getContentPane().add(lblNombre);
+		
+		JTextPane textPane = new JTextPane();
+		textPane.setBounds(193, 16, 81, 26);
+		frame.getContentPane().add(textPane);
+		
+		JTextPane textPane_1 = new JTextPane();
+		textPane_1.setBounds(193, 59, 81, 26);
+		frame.getContentPane().add(textPane_1);
+		
+		JLabel label = new JLabel("Apellidos");
+		label.setBounds(37, 58, 69, 26);
+		frame.getContentPane().add(label);
+	}
+}

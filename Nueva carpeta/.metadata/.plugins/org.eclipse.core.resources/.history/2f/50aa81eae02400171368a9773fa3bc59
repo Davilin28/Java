@@ -1,0 +1,25 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		// Creando Objetos de la clase coche:
+		// 1. NombreClase NombreObjeto = new NombreClase(parametros);
+		
+		Coche cocheJoseM = new Coche("3030hbd", "Audi", "A3", "Rojo", 12000.30, 1900, 1300.45, 'd', true, 5);
+		Coche cocheDavidR = new Coche("2810hcd", "hyundai", "I30", "Blanco", 16000.30, 2000, 1450.45, 'd', true, 5);
+		Coche cocheArmanC = new Coche("1233fbd", "Audi", "A1", "Rosa", 10000.30, 1600, 1000.45, 'g', false, 3);
+		Coche cocheLuisC = new Coche("2033dgs", "Porche", "cayman", "Rojo", 50000.30, 2000, 1800.45, 'g', true, 3);
+		
+		System.out.println(cocheJoseM.getColor());
+		System.out.println(cocheDavidR.getMatricula());
+		System.out.println(cocheArmanC.getCilindrada());
+		
+		
+		cocheJoseM.setColor("Verde");
+		System.out.println(cocheJoseM.getColor());
+		
+		cocheDavidR.setCombustible('d');
+		System.out.println("El combustible de David es: "+cocheDavidR.getCombustible());
+	}
+}

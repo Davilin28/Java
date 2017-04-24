@@ -1,0 +1,9 @@
+
+public class PrincipalMoto {
+
+	public static void main(String[] args) {
+		
+		Moto motoDavidR = new Moto("3030hbd", "Aprilia", "rs aprilia", 125, true, 25-12-2008, true, true, 2, 40.5,'d')
+	}
+
+}

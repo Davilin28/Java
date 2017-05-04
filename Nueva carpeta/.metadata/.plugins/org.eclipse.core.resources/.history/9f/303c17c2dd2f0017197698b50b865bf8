@@ -1,0 +1,11 @@
+package herencia;
+
+public class Alumno {
+
+	String dni;
+	String nombre;
+	String apellido1;
+	String apellido2;
+	String curso;
+	int anoNac;
+}

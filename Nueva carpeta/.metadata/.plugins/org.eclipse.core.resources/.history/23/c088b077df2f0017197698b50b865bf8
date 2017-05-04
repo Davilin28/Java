@@ -1,0 +1,16 @@
+package herencia;
+
+public class Alumno extends Persona {
+
+	String curso;
+	int anoNac;
+	char sexo; // H hombre, M mujer
+
+	public Alumno(String dni, String nombre, String apellido1, String apellido2, String curso, int anoNac, char sexo) {
+		super(dni, nombre, apellido1, apellido2);
+		this.curso = curso;
+		this.anoNac = anoNac;
+		this.sexo = sexo;
+	}
+
+}

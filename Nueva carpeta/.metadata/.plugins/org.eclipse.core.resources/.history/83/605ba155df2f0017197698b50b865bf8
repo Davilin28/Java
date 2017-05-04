@@ -1,0 +1,9 @@
+package herencia;
+
+public class Profesor extends Persona {
+
+	double sueldo;
+	int anosExperiencia;
+	boolean esFijo;
+	
+}

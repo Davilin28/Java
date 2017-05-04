@@ -1,0 +1,14 @@
+package array;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		//ARRAY ESTATICOS
+		String[] nombre = { "holaa", "TT", "bakpm" };
+
+		
+	
+	}
+
+}

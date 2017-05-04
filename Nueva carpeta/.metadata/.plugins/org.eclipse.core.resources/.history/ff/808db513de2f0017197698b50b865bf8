@@ -1,0 +1,8 @@
+package herencia;
+
+public class Alumno {
+
+	String curso;
+	int anoNac;
+	char sexo; // H hombre, M mujer
+}

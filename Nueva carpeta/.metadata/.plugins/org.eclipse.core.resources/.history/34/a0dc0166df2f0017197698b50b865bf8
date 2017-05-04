@@ -1,0 +1,9 @@
+package herencia;
+
+public class Alumno extends Persona {
+
+	String curso;
+	int anoNac;
+	char sexo; // H hombre, M mujer
+
+}

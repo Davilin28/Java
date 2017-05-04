@@ -1,0 +1,11 @@
+package herencia;
+
+public class Empleado {
+
+	String dni;
+	String nombre;
+	String apellido1;
+	String apellido2;
+	double sueldo;
+	char categoria; // L limpieza, A administracion, D cargo directivo.
+}

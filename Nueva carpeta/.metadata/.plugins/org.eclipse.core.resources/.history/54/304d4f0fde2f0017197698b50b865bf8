@@ -1,0 +1,9 @@
+package herencia;
+
+public class Persona {
+
+	String dni;
+	String nombre;
+	String apellido1;
+	String apellido2;
+}

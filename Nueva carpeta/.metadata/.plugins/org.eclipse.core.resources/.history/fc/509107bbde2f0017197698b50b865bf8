@@ -1,0 +1,10 @@
+package herencia;
+
+public class Empleado extends Persona {
+
+	char categoria; // L limpieza, A administracion, D cargo directivo.
+	
+	public Empleado(String dni, String nombre, String apellido1, String apellido2) {
+		super(dni, nombre, apellido1, apellido2);
+	}
+}

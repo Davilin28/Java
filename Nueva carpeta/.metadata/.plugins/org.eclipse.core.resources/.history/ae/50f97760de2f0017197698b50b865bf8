@@ -1,0 +1,13 @@
+package herencia;
+
+public class Alumno extends Persona {
+
+	public Alumno(String dni, String nombre, String apellido1, String apellido2) {
+		super(dni, nombre, apellido1, apellido2);
+		// TODO Auto-generated constructor stub
+	}
+
+	String curso;
+	int anoNac;
+	char sexo; // H hombre, M mujer
+}

@@ -1,0 +1,11 @@
+package herencia;
+
+public class NombrePrincipal {
+
+	public static void main(String[] args) {
+
+		Alumno a1 = new Alumno("09070489W", "David", "Román", "Rey", "1DAM", 1993, H);
+		Profesor p1 = new Profesor(dni, nombre, apellido1, apellido2, sueldo, anosExperiencia, esFijo)
+	}
+
+}

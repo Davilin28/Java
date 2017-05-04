@@ -1,0 +1,16 @@
+package array;
+
+import java.util.ArrayList;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		// ARRAYS ESTATICOS
+		String[] nombre = { "holaa", "TT", "bakpm" };
+
+		// ARRAYS DINAMICOS: ArrayList
+		ArrayList<String> nombre = new ArrayList<String>();
+	}
+
+}

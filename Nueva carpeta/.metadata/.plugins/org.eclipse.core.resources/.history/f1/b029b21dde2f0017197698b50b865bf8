@@ -1,0 +1,6 @@
+package herencia;
+
+public class Empleado {
+
+	char categoria; // L limpieza, A administracion, D cargo directivo.
+}

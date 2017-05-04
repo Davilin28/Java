@@ -1,0 +1,12 @@
+package herencia;
+
+public class Profesor extends Persona {
+
+	public Profesor(String dni, String nombre, String apellido1, String apellido2) {
+		super(dni, nombre, apellido1, apellido2);
+	}
+
+	double sueldo;
+	int anosExperiencia;
+	boolean esFijo;
+}

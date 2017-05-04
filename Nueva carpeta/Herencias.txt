@@ -1,0 +1,21 @@
+
+coche
+	String color;
+	double precio;
+	double peso;
+	char combustible;
+	int plazas;
+
+moto
+	int ano;
+	boolean proteccion;
+	boolean pata;
+	int ruedas;
+	double deposito;
+	char tipo;
+Vehiculo
+	String matricula;
+	String marca;
+	String modelo;
+	int cilindrada;
+	boolean itv;

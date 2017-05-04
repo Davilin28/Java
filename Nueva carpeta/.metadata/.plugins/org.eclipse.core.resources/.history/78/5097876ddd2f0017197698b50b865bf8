@@ -1,0 +1,10 @@
+package herencia;
+
+public class Profesor {
+
+	String dni;
+	String nombre;
+	String apellido1;
+	String apellido2;
+	double sueldo;
+}

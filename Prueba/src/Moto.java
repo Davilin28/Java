@@ -1,131 +1,79 @@
 
-public class Moto {
-	
+public class Moto extends Vehiculo {
+
 	// 1.Añadir los atributos de la clase
-		String matricula;
-		String marca;
-		String modelo;
-		int cilindrada;
-		boolean itv;
-		int ano;
-		boolean proteccion;
-		boolean pata;
-		int ruedas;
-		double deposito;
-		char tipo;
-		
-		// 2.Metodo/s constructor/es
-		public Moto(String matricula, String marca, String modelo, int cilindrada, boolean itv, int ano,
-				boolean proteccion, boolean pata, int ruedas, double deposito, char tipo) {
-			this.matricula = matricula;
-			this.marca = marca;
-			this.modelo = modelo;
-			this.cilindrada = cilindrada;
-			this.itv = itv;
-			this.ano = ano;
-			this.proteccion = proteccion;
-			this.pata = pata;
-			this.ruedas = ruedas;
-			this.deposito = deposito;
-			this.tipo = tipo;
-		}
-		
-		// 3.Crear metodos GET y SET
-		public String getMatricula() {
-			return matricula;
-		}
+	int ano;
+	boolean proteccion;
+	boolean pata;
+	int ruedas;
+	double deposito;
+	char tipo;
 
-		public void setMatricula(String matricula) {
-			this.matricula = matricula;
-		}
+	// 2.Metodo/s constructor/es
+	public Moto(String matricula, String marca, String modelo, int cilindrada, boolean itv, int ano, boolean proteccion,
+			boolean pata, int ruedas, double deposito, char tipo) {
+		super(matricula, marca, modelo, cilindrada, itv);
+		this.ano = ano;
+		this.proteccion = proteccion;
+		this.pata = pata;
+		this.ruedas = ruedas;
+		this.deposito = deposito;
+		this.tipo = tipo;
+	}
 
-		public String getMarca() {
-			return marca;
-		}
+	// 3. Crear Set & Get
+	public int getAno() {
+		return ano;
+	}
 
-		public void setMarca(String marca) {
-			this.marca = marca;
-		}
+	public void setAno(int ano) {
+		this.ano = ano;
+	}
 
-		public String getModelo() {
-			return modelo;
-		}
+	public boolean isProteccion() {
+		return proteccion;
+	}
 
-		public void setModelo(String modelo) {
-			this.modelo = modelo;
-		}
+	public void setProteccion(boolean proteccion) {
+		this.proteccion = proteccion;
+	}
 
-		public int getCilindrada() {
-			return cilindrada;
-		}
+	public boolean isPata() {
+		return pata;
+	}
 
-		public void setCilindrada(int cilindrada) {
-			this.cilindrada = cilindrada;
-		}
+	public void setPata(boolean pata) {
+		this.pata = pata;
+	}
 
-		public boolean isItv() {
-			return itv;
-		}
+	public int getRuedas() {
+		return ruedas;
+	}
 
-		public void setItv(boolean itv) {
-			this.itv = itv;
-		}
+	public void setRuedas(int ruedas) {
+		this.ruedas = ruedas;
+	}
 
-		public int getAno() {
-			return ano;
-		}
+	public double getDeposito() {
+		return deposito;
+	}
 
-		public void setAno(int ano) {
-			this.ano = ano;
-		}
+	public void setDeposito(double deposito) {
+		this.deposito = deposito;
+	}
 
-		public boolean isProteccion() {
-			return proteccion;
-		}
+	public char getTipo() {
+		return tipo;
+	}
 
-		public void setProteccion(boolean proteccion) {
-			this.proteccion = proteccion;
-		}
+	public void setTipo(char tipo) {
+		this.tipo = tipo;
+	}
 
-		public boolean isPata() {
-			return pata;
-		}
-
-		public void setPata(boolean pata) {
-			this.pata = pata;
-		}
-
-		public int getRuedas() {
-			return ruedas;
-		}
-
-		public void setRuedas(int ruedas) {
-			this.ruedas = ruedas;
-		}
-
-		public double getDeposito() {
-			return deposito;
-		}
-
-		public void setDeposito(double deposito) {
-			this.deposito = deposito;
-		}
-
-		public char getTipo() {
-			return tipo;
-		}
-
-		public void setTipo(char tipo) {
-			this.tipo = tipo;
-		}	
-		
-		//4. Crear metodo toString
-
-		@Override
-		public String toString() {
-			return "Moto [matricula=" + matricula + ", marca=" + marca + ", modelo=" + modelo + ", cilindrada="
-					+ cilindrada + ", itv=" + itv + ", ano=" + ano + ", proteccion=" + proteccion + ", pata=" + pata
-					+ ", ruedas=" + ruedas + ", deposito=" + deposito + ", tipo=" + tipo + "]";
-		}
-		
+	// 5. Crear ToString
+	@Override
+	public String toString() {
+		return "Moto [ano=" + ano + ", proteccion=" + proteccion + ", pata=" + pata + ", ruedas=" + ruedas
+				+ ", deposito=" + deposito + ", tipo=" + tipo + "]";
+	}
 }

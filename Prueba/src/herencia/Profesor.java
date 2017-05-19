@@ -1,0 +1,47 @@
+package herencia;
+
+public class Profesor extends Persona {
+
+	double sueldo;
+	int anosExperiencia;
+	boolean esFijo;
+
+	public Profesor(String dni, String nombre, String apellido1, String apellido2, double sueldo, int anosExperiencia,
+			boolean esFijo) {
+		super(dni, nombre, apellido1, apellido2);
+		this.sueldo = sueldo;
+		this.anosExperiencia = anosExperiencia;
+		this.esFijo = esFijo;
+	}
+
+	public double getSueldo() {
+		return sueldo;
+	}
+
+	public void setSueldo(double sueldo) {
+		this.sueldo = sueldo;
+	}
+
+	public int getAnosExperiencia() {
+		return anosExperiencia;
+	}
+
+	public void setAnosExperiencia(int anosExperiencia) {
+		this.anosExperiencia = anosExperiencia;
+	}
+
+	public boolean isEsFijo() {
+		return esFijo;
+	}
+
+	public void setEsFijo(boolean esFijo) {
+		this.esFijo = esFijo;
+	}
+
+	@Override
+	public String toString() {
+		return "Profesor [sueldo=" + sueldo + ", anosExperiencia=" + anosExperiencia + ", esFijo=" + esFijo + ", dni="
+				+ dni + ", nombre=" + nombre + ", apellido1=" + apellido1 + ", apellido2=" + apellido2 + "]";
+	}
+
+}

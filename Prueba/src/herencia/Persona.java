@@ -1,0 +1,55 @@
+package herencia;
+
+public class Persona {
+
+	protected String dni;
+	protected String nombre;
+	protected String apellido1;
+	protected String apellido2;
+
+	public Persona(String dni, String nombre, String apellido1, String apellido2) {
+		this.dni = dni;
+		this.nombre = nombre;
+		this.apellido1 = apellido1;
+		this.apellido2 = apellido2;
+	}
+
+	protected String getDni() {
+		return dni;
+	}
+
+	protected void setDni(String dni) {
+		this.dni = dni;
+	}
+
+	protected String getNombre() {
+		return nombre;
+	}
+
+	protected void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	protected String getApellido1() {
+		return apellido1;
+	}
+
+	protected void setApellido1(String apellido1) {
+		this.apellido1 = apellido1;
+	}
+
+	protected String getApellido2() {
+		return apellido2;
+	}
+
+	protected void setApellido2(String apellido2) {
+		this.apellido2 = apellido2;
+	}
+
+	@Override
+	public String toString() {
+		return "Persona [dni=" + dni + ", nombre=" + nombre + ", apellido1=" + apellido1 + ", apellido2=" + apellido2
+				+ "]";
+	}
+
+}
